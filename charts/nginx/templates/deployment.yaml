@@ -47,7 +47,7 @@ spec:
         - name: html
           configMap:
             name: {{.Release.Name}}-index-html
-           lvenessProbe:
+          lvenessProbe:
             {{- toYaml .Values.livenessProbe | nindent 12 }}
           readinessProbe:
             {{- toYaml .Values.readinessProbe | nindent 12 }}
