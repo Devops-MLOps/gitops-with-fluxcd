@@ -89,16 +89,14 @@ autoscaling:
 
 # Additional volumes on the output Deployment definition.
 volumes: []
-# - name: foo
-#   secret:
-#     secretName: mysecret
-#     optional: false
+# - name: html
+#   configMap:
+#     name: {{.Release.Name}}-index-html
 
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts: []
-# - name: foo
-#   mountPath: "/etc/foo"
-#   readOnly: true
+# - name: html
+#   mountPath: /usr/share/nginx/html
 
 nodeSelector: {}
 
