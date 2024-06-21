@@ -15,12 +15,12 @@ spec:
     interval: 1m
   values:
     indexhtml: |-
-    <!doctype html>
-       <html>
-       <head>
-        <title> Custom page </title>
-      </head>
-      <body>
-        <h1> welcome to custome page </h1>
-      </body>
-      </html> 
+      <!doctype html>
+        <html>
+        <head>
+          <title> Custom page </title>
+        </head>
+        <body>
+          <h1> welcome to custome page </h1>
+        </body>
+        </html> 
